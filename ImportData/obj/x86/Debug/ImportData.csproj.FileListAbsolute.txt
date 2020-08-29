@@ -1,0 +1,54 @@
+D:\Varun Code\ImportDataUtility\ImportData\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\Varun Code\ImportDataUtility\ImportData\obj\x86\Debug\ImportData.frmImport.resources
+D:\Varun Code\ImportDataUtility\ImportData\obj\x86\Debug\ImportData.Properties.Resources.resources
+D:\Varun Code\ImportDataUtility\ImportData\obj\x86\Debug\ImportData.ucExcelFileOption.resources
+D:\Varun Code\ImportDataUtility\ImportData\obj\x86\Debug\ImportData.ucSource.resources
+D:\Varun Code\ImportDataUtility\ImportData\obj\x86\Debug\ImportData.ucTextFileOption.resources
+D:\Varun Code\ImportDataUtility\ImportData\obj\x86\Debug\ImportData.ucXmlFileOption.resources
+D:\Varun Code\ImportDataUtility\ImportData\obj\x86\Debug\GenerateResource.read.1.tlog
+D:\Varun Code\ImportDataUtility\ImportData\obj\x86\Debug\GenerateResource.write.1.tlog
+D:\Varun Code\ImportDataUtility\ImportData\bin\Debug\ImportData.exe
+D:\Varun Code\ImportDataUtility\ImportData\bin\Debug\ImportData.pdb
+D:\Varun Code\ImportDataUtility\ImportData\obj\x86\Debug\ImportData.exe
+D:\Varun Code\ImportDataUtility\ImportData\obj\x86\Debug\ImportData.pdb
+D:\Varun Code\ImportDataUtility\ImportData\obj\x86\Debug\ImportData.ucMapping.resources
+D:\Varun Code\ImportDataUtility\ImportData\bin\Debug\ImportData.exe.config
+D:\Varun Code\ImportDataUtility\ImportData\obj\x86\Debug\ImportData.ucImport.resources
+E:\ImportDataUtility\ImportData\bin\Debug\ImportData.exe.config
+E:\ImportDataUtility\ImportData\obj\x86\Debug\ImportData.exe
+E:\ImportDataUtility\ImportData\obj\x86\Debug\ImportData.pdb
+E:\ImportDataUtility\ImportData\obj\x86\Debug\ImportData.frmImport.resources
+E:\ImportDataUtility\ImportData\obj\x86\Debug\ImportData.Properties.Resources.resources
+E:\ImportDataUtility\ImportData\obj\x86\Debug\ImportData.ucExcelFileOption.resources
+E:\ImportDataUtility\ImportData\obj\x86\Debug\ImportData.ucImport.resources
+E:\ImportDataUtility\ImportData\obj\x86\Debug\ImportData.ucMapping.resources
+E:\ImportDataUtility\ImportData\obj\x86\Debug\ImportData.ucSource.resources
+E:\ImportDataUtility\ImportData\obj\x86\Debug\ImportData.ucTextFileOption.resources
+E:\ImportDataUtility\ImportData\obj\x86\Debug\ImportData.ucXmlFileOption.resources
+E:\ImportDataUtility\ImportData\obj\x86\Debug\ImportData.csproj.GenerateResource.Cache
+E:\ImportDataUtility\ImportData\bin\Debug\ImportData.exe
+E:\ImportDataUtility\ImportData\bin\Debug\ImportData.pdb
+E:\ImportDataUtility\ImportData\bin\Debug\Microsoft.VisualBasic.PowerPacks.Design.dll
+E:\ImportDataUtility\ImportData\bin\Debug\Microsoft.VisualBasic.PowerPacks.dll
+E:\ImportDataUtility\ImportData\bin\Debug\MySql.Data.dll
+E:\ImportDataUtility\ImportData\bin\Debug\Google.Protobuf.dll
+E:\ImportDataUtility\ImportData\bin\Debug\MySql.Data.xml
+E:\ImportDataUtility\ImportData\bin\Debug\Microsoft.VisualBasic.PowerPacks.xml
+E:\ImportDataUtility\ImportData\obj\x86\Debug\ImportData.ucConnection.resources
+E:\ImportDataUtility\ImportData\obj\x86\Debug\ImportData.ucMySQL.resources
+E:\ImportDataUtility\ImportData\obj\x86\Debug\ImportData.ucSQL.resources
+E:\ImportDataUtility\ImportData\bin\Debug\MySql.Data.EntityFramework.dll
+E:\ImportDataUtility\ImportData\bin\Debug\MySQL.Data.EntityFrameworkCore.Design.dll
+E:\ImportDataUtility\ImportData\bin\Debug\MySQL.Data.EntityFrameworkCore.dll
+E:\ImportDataUtility\ImportData\bin\Debug\MySql.Web.dll
+E:\ImportDataUtility\ImportData\bin\Debug\MySql.Data.EntityFramework.xml
+E:\ImportDataUtility\ImportData\bin\Debug\MySQL.Data.EntityFrameworkCore.xml
+E:\ImportDataUtility\ImportData\bin\Debug\MySQL.Data.EntityFrameworkCore.Design.xml
+E:\ImportDataUtility\ImportData\bin\Debug\MySql.Web.xml
+E:\ImportDataUtility\ImportData\bin\Debug\ImportData.exe.manifest
+E:\ImportDataUtility\ImportData\bin\Debug\GenericUploaderDB.vshost.exe
+E:\ImportDataUtility\ImportData\obj\x86\Debug\ImportData.exe.manifest
+E:\ImportDataUtility\ImportData\bin\Debug\Cyotek.Collections.Generic.CircularBuffer.dll
+E:\ImportDataUtility\ImportData\bin\Debug\Cyotek.Collections.Generic.CircularBuffer.xml
+E:\ImportDataUtility\ImportData\obj\x86\Debug\ImportData.Progressbar.resources
+E:\ImportDataUtility\ImportData\obj\x86\Debug\ImportData.csprojResolveAssemblyReference.cache

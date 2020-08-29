@@ -1,0 +1,269 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{E7D8C1FC-AAB4-4DA0-BBC9-9091027526B5}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>ImportData</RootNamespace>
+    <AssemblyName>ImportData</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Cyotek.Collections.Generic.CircularBuffer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=58daa28b0b2de221, processorArchitecture=MSIL">
+      <HintPath>packages\Cyotek.CircularBuffer.1.0.2\lib\net20\Cyotek.Collections.Generic.CircularBuffer.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="FileHelpers">
+      <HintPath>..\..\..\Varun\VarunTemp\Wizard\FileHelpers\Binaries\DotNet 2.0\FileHelpers.dll</HintPath>
+    </Reference>
+    <Reference Include="FileHelpers.ExcelStorage">
+      <HintPath>..\..\..\Varun\VarunTemp\Wizard\FileHelpers\Binaries\DotNet 2.0\FileHelpers.ExcelStorage.dll</HintPath>
+    </Reference>
+    <Reference Include="GenericUploaderDB.vshost">
+      <HintPath>..\GenericUploaderDB\GenericUploaderDB\bin\Debug\GenericUploaderDB.vshost.exe</HintPath>
+    </Reference>
+    <Reference Include="Interop.Excel">
+      <HintPath>..\..\..\Varun\VarunTemp\Wizard\FileHelpers\Binaries\DotNet 2.0\Interop.Excel.dll</HintPath>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="Interop.Office">
+      <HintPath>..\..\..\Varun\VarunTemp\Wizard\FileHelpers\Binaries\DotNet 2.0\Interop.Office.dll</HintPath>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="Microsoft.VisualBasic.PowerPacks">
+      <HintPath>C:\Users\Tarun Sharma\Desktop\Microsoft.VisualBasic.PowerPacks.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.VisualBasic.PowerPacks.Design, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.VisualBasic.PowerPacks.Vs, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="MySql.Data, Version=6.3.6.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files (x86)\MySQL\MySQL Connector Net 6.3.6\Assemblies\v4.0\MySql.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="MySql.Data.Entity, Version=6.3.6.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files (x86)\MySQL\MySQL Connector Net 6.3.6\Assemblies\v4.0\MySql.Data.Entity.dll</HintPath>
+    </Reference>
+    <Reference Include="MySql.Data.EntityFramework, Version=8.0.12.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL" />
+    <Reference Include="MySQL.Data.EntityFrameworkCore, Version=8.0.12.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL" />
+    <Reference Include="MySQL.Data.EntityFrameworkCore.Design, Version=8.0.12.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL" />
+    <Reference Include="MySql.Web, Version=8.0.12.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Configuration.Install" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="bzImport.cs" />
+    <Compile Include="CCBoxItem.cs" />
+    <Compile Include="CheckedComboBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="CustomException.cs" />
+    <Compile Include="DataColumnEqualityComparer .cs" />
+    <Compile Include="DataTableSchemaCompare.cs" />
+    <Compile Include="DBFunctions.cs" />
+    <Compile Include="frmImport.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmImport.Designer.cs">
+      <DependentUpon>frmImport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Parameter.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Progressbar.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Progressbar.Designer.cs">
+      <DependentUpon>Progressbar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SetTextCallback.cs" />
+    <Compile Include="ucConnection.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ucConnection.Designer.cs">
+      <DependentUpon>ucConnection.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ucExcelFileOption.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ucExcelFileOption.Designer.cs">
+      <DependentUpon>ucExcelFileOption.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ucImport.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ucImport.Designer.cs">
+      <DependentUpon>ucImport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ucMapping.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ucMapping.Designer.cs">
+      <DependentUpon>ucMapping.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ucMySQL.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ucMySQL.Designer.cs">
+      <DependentUpon>ucMySQL.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ucSource.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ucSource.Designer.cs">
+      <DependentUpon>ucSource.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ucSQL.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ucSQL.Designer.cs">
+      <DependentUpon>ucSQL.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ucTextFileOption.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ucTextFileOption.Designer.cs">
+      <DependentUpon>ucTextFileOption.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ucXmlFileOption.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ucXmlFileOption.Designer.cs">
+      <DependentUpon>ucXmlFileOption.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WizardData.cs" />
+    <EmbeddedResource Include="frmImport.resx">
+      <DependentUpon>frmImport.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Progressbar.resx">
+      <DependentUpon>Progressbar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="ucConnection.resx">
+      <DependentUpon>ucConnection.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ucExcelFileOption.resx">
+      <DependentUpon>ucExcelFileOption.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ucImport.resx">
+      <DependentUpon>ucImport.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ucMapping.resx">
+      <DependentUpon>ucMapping.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ucMySQL.resx">
+      <DependentUpon>ucMySQL.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ucSource.resx">
+      <DependentUpon>ucSource.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ucSQL.resx">
+      <DependentUpon>ucSQL.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ucTextFileOption.resx">
+      <DependentUpon>ucTextFileOption.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ucXmlFileOption.resx">
+      <DependentUpon>ucXmlFileOption.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="App.config">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="bin\Debug\ImportData.exe.config" />
+    <None Include="bin\Debug\ImportData.vshost.exe.config" />
+    <None Include="bin\Debug\ImportData.vshost.exe.manifest" />
+    <None Include="ClassDiagram1.cd" />
+    <None Include="ClassDiagram2.cd" />
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="bin\Debug\FileHelpers.dll" />
+    <Content Include="bin\Debug\FileHelpers.ExcelStorage.dll" />
+    <Content Include="bin\Debug\FileHelpers.ExcelStorage.xml" />
+    <Content Include="bin\Debug\FileHelpers.xml" />
+    <Content Include="bin\Debug\ImportData.exe" />
+    <Content Include="bin\Debug\ImportData.pdb" />
+    <Content Include="bin\Debug\ImportData.vshost.exe" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="bin\Debug\Temp\" />
+  </ItemGroup>
+  <ItemGroup>
+    <NativeReference Include="MyApplication.app, Version=1.0.0.0">
+      <Name>GenericUploaderDB.vshost.exe.manifest</Name>
+      <HintPath>..\GenericUploaderDB\GenericUploaderDB\bin\Debug\GenericUploaderDB.vshost.exe.manifest</HintPath>
+    </NativeReference>
+    <NativeReference Include="MyApplication.app, Version=1.0.0.0">
+      <Name>ImportData.vshost.exe.manifest</Name>
+      <HintPath>bin\Debug\ImportData.vshost.exe.manifest</HintPath>
+    </NativeReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

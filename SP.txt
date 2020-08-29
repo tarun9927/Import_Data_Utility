@@ -1,0 +1,47 @@
+DELIMITER $$
+
+USE `maxafp`$$
+
+DROP PROCEDURE IF EXISTS `sp_CreateAlterDeletePMObjectsTable`$$
+
+CREATE DEFINER=`root`@`localhost` PROCEDURE `sp_CreateAlterDeletePMObjectsTable`(IN Operation VARCHAR(10) , IN TName VARCHAR(100), IN ColumnList TEXT)
+BEGIN
+    IF Operation = 'CREATE' THEN
+                    SET @Table = CONCAT('DROP TABLE IF EXISTS ', TName);
+                    PREPARE stm FROM @Table;
+                    EXECUTE stm;
+                    
+                    
+                    SET @Table = CONCAT('DROP TABLE IF EXISTS ', TName);
+                    
+                    
+                    SET @Table = CONCAT('CREATE TABLE ', tname, ColumnList);
+                    
+                    
+                    PREPARE stm FROM @Table;
+                    EXECUTE stm;
+                    DEALLOCATE PREPARE stm;
+    
+    END IF;
+    
+    IF Operation = 'ALTER' THEN
+                SET @Table = CONCAT('ALTER TABLE ', tname, ColumnList);            
+                    
+                PREPARE stm FROM @Table;
+                EXECUTE stm;
+                DEALLOCATE PREPARE stm;
+    
+    
+    END IF;
+    
+    IF Operation = 'DELETE' THEN
+                    SET @Table = CONCAT('DROP TABLE IF EXISTS ', TName);
+                    PREPARE stm FROM @Table;
+                    EXECUTE stm;    
+                    
+                    DEALLOCATE PREPARE stm;  
+    END IF;
+    
+    END$$
+
+DELIMITER ;

@@ -1,0 +1,16 @@
+D:\hoshi\CODE\GenericUploaderDB\GenericUploaderDB\obj\x86\Release\GenericUploaderDB.Form1.resources
+D:\hoshi\CODE\GenericUploaderDB\GenericUploaderDB\obj\x86\Release\GenericUploaderDB.Properties.Resources.resources
+D:\hoshi\CODE\GenericUploaderDB\GenericUploaderDB\obj\x86\Release\GenericUploaderDB.csproj.GenerateResource.Cache
+D:\hoshi\CODE\GenericUploaderDB\GenericUploaderDB\bin\Release\GenericUploaderDB.exe
+D:\hoshi\CODE\GenericUploaderDB\GenericUploaderDB\bin\Release\GenericUploaderDB.pdb
+D:\hoshi\CODE\GenericUploaderDB\GenericUploaderDB\obj\x86\Release\GenericUploaderDB.exe
+D:\hoshi\CODE\GenericUploaderDB\GenericUploaderDB\obj\x86\Release\GenericUploaderDB.pdb
+D:\hoshi\CODE\GenericUploaderDB\GenericUploaderDB\obj\x86\Release\GenericUploaderDB.csprojResolveAssemblyReference.cache
+E:\ImportDataUtility\GenericUploaderDB\GenericUploaderDB\obj\x86\Release\GenericUploaderDB.exe
+E:\ImportDataUtility\GenericUploaderDB\GenericUploaderDB\obj\x86\Release\GenericUploaderDB.pdb
+E:\ImportDataUtility\GenericUploaderDB\GenericUploaderDB\bin\Release\GenericUploaderDB.exe
+E:\ImportDataUtility\GenericUploaderDB\GenericUploaderDB\bin\Release\GenericUploaderDB.pdb
+E:\ImportDataUtility\GenericUploaderDB\GenericUploaderDB\obj\x86\Release\GenericUploaderDB.Form1.resources
+E:\ImportDataUtility\GenericUploaderDB\GenericUploaderDB\obj\x86\Release\GenericUploaderDB.Properties.Resources.resources
+E:\ImportDataUtility\GenericUploaderDB\GenericUploaderDB\obj\x86\Release\GenericUploaderDB.csproj.GenerateResource.Cache
+E:\ImportDataUtility\GenericUploaderDB\GenericUploaderDB\obj\x86\Release\GenericUploaderDB.csprojResolveAssemblyReference.cache
